@@ -1,0 +1,37 @@
+[0.144s] Invoking command in '/home/jbaghiro/testWS/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jbaghiro/testWS/install/braitenberg_tb3:/home/jbaghiro/testWS/install/turtlebot3_teleop:/home/jbaghiro/testWS/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/jbaghiro/testWS/build/turtlebot3_navigation2 -- -j16 -l16
+[1.247s] Invoked command in '/home/jbaghiro/testWS/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jbaghiro/testWS/install/braitenberg_tb3:/home/jbaghiro/testWS/install/turtlebot3_teleop:/home/jbaghiro/testWS/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/jbaghiro/testWS/build/turtlebot3_navigation2 -- -j16 -l16
+[1.249s] Invoking command in '/home/jbaghiro/testWS/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jbaghiro/testWS/install/braitenberg_tb3:/home/jbaghiro/testWS/install/turtlebot3_teleop:/home/jbaghiro/testWS/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/jbaghiro/testWS/build/turtlebot3_navigation2
+[1.319s] -- Install configuration: ""
+[1.320s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[1.320s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.321s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[1.321s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[1.321s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[1.321s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[1.321s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.322s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.322s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[1.322s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble
+[1.323s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[1.323s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[1.324s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[1.326s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[1.326s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.326s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[1.326s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.326s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.327s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.327s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.327s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.327s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.327s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.328s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.328s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.328s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.328s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.328s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.328s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.329s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.329s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.329s] -- Up-to-date: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.536s] Invoked command in '/home/jbaghiro/testWS/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jbaghiro/testWS/install/braitenberg_tb3:/home/jbaghiro/testWS/install/turtlebot3_teleop:/home/jbaghiro/testWS/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/jbaghiro/testWS/build/turtlebot3_navigation2

@@ -1,0 +1,24 @@
+[2.255s] Invoking command in '/home/jbaghiro/testWS/src/braitenberg_tb3': PYTHONPATH=/home/jbaghiro/testWS/build/braitenberg_tb3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jbaghiro/testWS/install/braitenberg_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/braitenberg_tb3 build --build-base /home/jbaghiro/testWS/build/braitenberg_tb3/build install --record /home/jbaghiro/testWS/build/braitenberg_tb3/install.log --single-version-externally-managed install_data
+[2.901s] running egg_info
+[2.903s] writing ../../build/braitenberg_tb3/braitenberg_tb3.egg-info/PKG-INFO
+[2.904s] writing dependency_links to ../../build/braitenberg_tb3/braitenberg_tb3.egg-info/dependency_links.txt
+[2.905s] writing entry points to ../../build/braitenberg_tb3/braitenberg_tb3.egg-info/entry_points.txt
+[2.906s] writing requirements to ../../build/braitenberg_tb3/braitenberg_tb3.egg-info/requires.txt
+[2.906s] writing top-level names to ../../build/braitenberg_tb3/braitenberg_tb3.egg-info/top_level.txt
+[2.909s] reading manifest file '../../build/braitenberg_tb3/braitenberg_tb3.egg-info/SOURCES.txt'
+[2.911s] writing manifest file '../../build/braitenberg_tb3/braitenberg_tb3.egg-info/SOURCES.txt'
+[2.912s] running build
+[2.913s] running build_py
+[2.913s] copying braitenberg_tb3/braitenberg_node.py -> /home/jbaghiro/testWS/build/braitenberg_tb3/build/lib/braitenberg_tb3
+[2.914s] running install
+[2.914s] running install_lib
+[2.916s] copying /home/jbaghiro/testWS/build/braitenberg_tb3/build/lib/braitenberg_tb3/braitenberg_node.py -> /home/jbaghiro/testWS/install/braitenberg_tb3/lib/python3.10/site-packages/braitenberg_tb3
+[2.917s] byte-compiling /home/jbaghiro/testWS/install/braitenberg_tb3/lib/python3.10/site-packages/braitenberg_tb3/braitenberg_node.py to braitenberg_node.cpython-310.pyc
+[2.918s] running install_data
+[2.918s] running install_egg_info
+[2.921s] removing '/home/jbaghiro/testWS/install/braitenberg_tb3/lib/python3.10/site-packages/braitenberg_tb3-0.0.0-py3.10.egg-info' (and everything under it)
+[2.922s] Copying ../../build/braitenberg_tb3/braitenberg_tb3.egg-info to /home/jbaghiro/testWS/install/braitenberg_tb3/lib/python3.10/site-packages/braitenberg_tb3-0.0.0-py3.10.egg-info
+[2.924s] running install_scripts
+[2.970s] Installing braitenberg_node script to /home/jbaghiro/testWS/install/braitenberg_tb3/lib/braitenberg_tb3
+[2.971s] writing list of installed files to '/home/jbaghiro/testWS/build/braitenberg_tb3/install.log'
+[3.039s] Invoked command in '/home/jbaghiro/testWS/src/braitenberg_tb3' returned '0': PYTHONPATH=/home/jbaghiro/testWS/build/braitenberg_tb3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jbaghiro/testWS/install/braitenberg_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/braitenberg_tb3 build --build-base /home/jbaghiro/testWS/build/braitenberg_tb3/build install --record /home/jbaghiro/testWS/build/braitenberg_tb3/install.log --single-version-externally-managed install_data

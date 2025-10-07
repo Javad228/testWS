@@ -1,0 +1,77 @@
+[0.648s] Invoking command in '/home/jbaghiro/testWS/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces:/home/jbaghiro/testWS/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces:/home/jbaghiro/testWS/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces/lib:/home/jbaghiro/testWS/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/jbaghiro/testWS/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jbaghiro/testWS/src/utils/DynamixelSDK/ros/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/jbaghiro/testWS/install/dynamixel_sdk_examples
+[0.915s] -- The C compiler identification is GNU 11.4.0
+[1.674s] -- The CXX compiler identification is GNU 11.4.0
+[2.282s] -- Detecting C compiler ABI info
+[2.496s] -- Detecting C compiler ABI info - done
+[2.503s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.503s] -- Detecting C compile features
+[2.504s] -- Detecting C compile features - done
+[2.507s] -- Detecting CXX compiler ABI info
+[2.758s] -- Detecting CXX compiler ABI info - done
+[2.766s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.766s] -- Detecting CXX compile features
+[2.767s] -- Detecting CXX compile features - done
+[2.771s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.972s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.090s] -- Found dynamixel_sdk: 3.8.4 (/home/jbaghiro/testWS/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[3.093s] -- Found dynamixel_sdk_custom_interfaces: 3.8.4 (/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[3.303s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.314s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.326s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.343s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.420s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.472s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.476s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.543s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.358s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.959s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.975s] -- Looking for pthread.h
+[11.307s] -- Looking for pthread.h - found
+[11.308s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.696s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.697s] -- Found Threads: TRUE  
+[11.816s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[11.821s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.019s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.023s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.023s] -- Configured cppcheck include dirs: /home/jbaghiro/testWS/src/utils/DynamixelSDK/ros/dynamixel_sdk_examples/include
+[12.024s] -- Configured cppcheck exclude dirs and/or files: 
+[12.027s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.027s] -- Configured cpplint exclude dirs and/or files: 
+[12.030s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.032s] -- Added test 'lint_cmake' to check CMake code style
+[12.034s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.038s] -- Added test 'uncrustify' to check C / C++ code style
+[12.038s] -- Configured uncrustify additional arguments: 
+[12.040s] -- Added test 'xmllint' to check XML markup files
+[12.043s] -- Configuring done
+[12.075s] -- Generating done
+[12.083s] -- Build files have been written to: /home/jbaghiro/testWS/build/dynamixel_sdk_examples
+[12.105s] Invoked command in '/home/jbaghiro/testWS/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces:/home/jbaghiro/testWS/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces:/home/jbaghiro/testWS/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces/lib:/home/jbaghiro/testWS/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/jbaghiro/testWS/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jbaghiro/testWS/src/utils/DynamixelSDK/ros/dynamixel_sdk_examples -DCMAKE_INSTALL_PREFIX=/home/jbaghiro/testWS/install/dynamixel_sdk_examples
+[12.108s] Invoking command in '/home/jbaghiro/testWS/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces:/home/jbaghiro/testWS/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces:/home/jbaghiro/testWS/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces/lib:/home/jbaghiro/testWS/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/jbaghiro/testWS/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jbaghiro/testWS/build/dynamixel_sdk_examples -- -j16 -l16
+[12.207s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[34.866s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[35.566s] [100%] Built target read_write_node
+[35.590s] Invoked command in '/home/jbaghiro/testWS/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces:/home/jbaghiro/testWS/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces:/home/jbaghiro/testWS/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces/lib:/home/jbaghiro/testWS/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/jbaghiro/testWS/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jbaghiro/testWS/build/dynamixel_sdk_examples -- -j16 -l16
+[35.594s] Invoking command in '/home/jbaghiro/testWS/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces:/home/jbaghiro/testWS/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces:/home/jbaghiro/testWS/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces/lib:/home/jbaghiro/testWS/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/jbaghiro/testWS/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jbaghiro/testWS/build/dynamixel_sdk_examples
+[35.604s] -- Install configuration: ""
+[35.606s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[35.614s] -- Set runtime path of "/home/jbaghiro/testWS/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node" to ""
+[35.614s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py
+[35.617s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[35.618s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[35.619s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[35.619s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[35.619s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[35.620s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[35.620s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[35.620s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[35.621s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[35.621s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[35.621s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[35.623s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[35.624s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[35.624s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[35.625s] -- Installing: /home/jbaghiro/testWS/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[35.629s] Invoked command in '/home/jbaghiro/testWS/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces:/home/jbaghiro/testWS/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces:/home/jbaghiro/testWS/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces/lib:/home/jbaghiro/testWS/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jbaghiro/testWS/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/jbaghiro/testWS/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jbaghiro/testWS/build/dynamixel_sdk_examples

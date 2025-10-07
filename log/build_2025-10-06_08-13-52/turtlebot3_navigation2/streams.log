@@ -1,0 +1,56 @@
+[0.071s] Invoking command in '/home/jbaghiro/testWS/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jbaghiro/testWS/src/turtlebot3/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/jbaghiro/testWS/install/turtlebot3_navigation2
+[0.467s] -- The C compiler identification is GNU 11.4.0
+[1.327s] -- The CXX compiler identification is GNU 11.4.0
+[1.927s] -- Detecting C compiler ABI info
+[2.193s] -- Detecting C compiler ABI info - done
+[2.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.205s] -- Detecting C compile features
+[2.205s] -- Detecting C compile features - done
+[2.211s] -- Detecting CXX compiler ABI info
+[2.546s] -- Detecting CXX compiler ABI info - done
+[2.557s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.557s] -- Detecting CXX compile features
+[2.558s] -- Detecting CXX compile features - done
+[2.563s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.802s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.043s] -- Configuring done
+[3.055s] -- Generating done
+[3.059s] -- Build files have been written to: /home/jbaghiro/testWS/build/turtlebot3_navigation2
+[3.067s] Invoked command in '/home/jbaghiro/testWS/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jbaghiro/testWS/src/turtlebot3/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/jbaghiro/testWS/install/turtlebot3_navigation2
+[3.070s] Invoking command in '/home/jbaghiro/testWS/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jbaghiro/testWS/build/turtlebot3_navigation2 -- -j16 -l16
+[3.134s] Invoked command in '/home/jbaghiro/testWS/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jbaghiro/testWS/build/turtlebot3_navigation2 -- -j16 -l16
+[3.137s] Invoking command in '/home/jbaghiro/testWS/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jbaghiro/testWS/build/turtlebot3_navigation2
+[3.147s] -- Install configuration: ""
+[3.147s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[3.150s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[3.150s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[3.151s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[3.152s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[3.153s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[3.155s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[3.155s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[3.157s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[3.157s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble
+[3.158s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[3.159s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[3.159s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[3.160s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[3.165s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[3.165s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[3.165s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[3.168s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[3.169s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[3.171s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[3.171s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[3.171s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[3.172s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[3.172s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[3.172s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[3.174s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[3.174s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[3.174s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[3.175s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[3.176s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[3.177s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[3.177s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[3.192s] Invoked command in '/home/jbaghiro/testWS/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jbaghiro/testWS/build/turtlebot3_navigation2

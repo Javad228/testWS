@@ -1,0 +1,21 @@
+[2.278s] Invoking command in '/home/jbaghiro/testWS/src/turtlebot3/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/jbaghiro/testWS/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jbaghiro/testWS/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/jbaghiro/testWS/build/turtlebot3_teleop/build install --record /home/jbaghiro/testWS/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[2.917s] running egg_info
+[2.918s] writing ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[2.918s] writing dependency_links to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[2.919s] writing entry points to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[2.919s] writing requirements to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[2.920s] writing top-level names to ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[2.923s] reading manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.926s] writing manifest file '../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.926s] running build
+[2.926s] running build_py
+[2.927s] running install
+[2.927s] running install_lib
+[2.931s] running install_data
+[2.932s] running install_egg_info
+[2.935s] removing '/home/jbaghiro/testWS/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.3.3-py3.10.egg-info' (and everything under it)
+[2.936s] Copying ../../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/jbaghiro/testWS/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.3.3-py3.10.egg-info
+[2.938s] running install_scripts
+[2.979s] Installing teleop_keyboard script to /home/jbaghiro/testWS/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.979s] writing list of installed files to '/home/jbaghiro/testWS/build/turtlebot3_teleop/install.log'
+[3.044s] Invoked command in '/home/jbaghiro/testWS/src/turtlebot3/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/jbaghiro/testWS/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jbaghiro/testWS/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_teleop build --build-base /home/jbaghiro/testWS/build/turtlebot3_teleop/build install --record /home/jbaghiro/testWS/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data

@@ -1,0 +1,78 @@
+[0.380s] Invoking command in '/home/jbaghiro/testWS/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jbaghiro/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/jbaghiro/testWS/install/turtlebot3_fake_node
+[0.576s] -- The C compiler identification is GNU 11.4.0
+[1.252s] -- The CXX compiler identification is GNU 11.4.0
+[1.713s] -- Detecting C compiler ABI info
+[1.973s] -- Detecting C compiler ABI info - done
+[1.982s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.983s] -- Detecting C compile features
+[1.983s] -- Detecting C compile features - done
+[1.988s] -- Detecting CXX compiler ABI info
+[2.315s] -- Detecting CXX compiler ABI info - done
+[2.327s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.328s] -- Detecting CXX compile features
+[2.329s] -- Detecting CXX compile features - done
+[2.335s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.662s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.826s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.106s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.114s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.131s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.250s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.278s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.348s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.353s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.458s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.619s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.710s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.726s] -- Looking for pthread.h
+[8.009s] -- Looking for pthread.h - found
+[8.009s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.281s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.283s] -- Found Threads: TRUE  
+[8.341s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.380s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[8.398s] -- Found tf2_msgs: 0.25.16 (/opt/ros/humble/share/tf2_msgs/cmake)
+[8.474s] -- Found turtlebot3_msgs: 2.4.0 (/home/jbaghiro/testWS/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[8.656s] -- Configuring done
+[8.693s] -- Generating done
+[8.704s] -- Build files have been written to: /home/jbaghiro/testWS/build/turtlebot3_fake_node
+[8.731s] Invoked command in '/home/jbaghiro/testWS/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jbaghiro/testWS/src/turtlebot3/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/jbaghiro/testWS/install/turtlebot3_fake_node
+[8.735s] Invoking command in '/home/jbaghiro/testWS/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jbaghiro/testWS/build/turtlebot3_fake_node -- -j16 -l16
+[8.842s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[32.368s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[33.209s] [100%] Built target turtlebot3_fake_node
+[33.229s] Invoked command in '/home/jbaghiro/testWS/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jbaghiro/testWS/build/turtlebot3_fake_node -- -j16 -l16
+[33.232s] Invoking command in '/home/jbaghiro/testWS/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jbaghiro/testWS/build/turtlebot3_fake_node
+[33.244s] -- Install configuration: ""
+[33.246s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[33.257s] -- Set runtime path of "/home/jbaghiro/testWS/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node" to ""
+[33.257s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch
+[33.259s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[33.260s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[33.260s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param
+[33.262s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[33.262s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[33.262s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[33.262s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/include/
+[33.264s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/include//turtlebot3_fake_node
+[33.265s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[33.268s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[33.269s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[33.270s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[33.270s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[33.270s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[33.271s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[33.271s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[33.271s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[33.272s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[33.272s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[33.272s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[33.273s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[33.275s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.275s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.275s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[33.275s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[33.276s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[33.280s] Invoked command in '/home/jbaghiro/testWS/build/turtlebot3_fake_node' returned '0': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jbaghiro/testWS/build/turtlebot3_fake_node
