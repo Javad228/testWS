@@ -1,0 +1,3 @@
+[console_scripts]
+braitenberg_node = braitenberg.braitenberg_node:runit
+

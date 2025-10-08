@@ -1,0 +1,61 @@
+[0.082s] Invoking command in '/home/jbaghiro/testWS/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jbaghiro/testWS/src/turtlebot3/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/jbaghiro/testWS/install/turtlebot3_description
+[0.794s] -- The C compiler identification is GNU 11.4.0
+[0.879s] -- The CXX compiler identification is GNU 11.4.0
+[1.367s] -- Detecting C compiler ABI info
+[1.596s] -- Detecting C compiler ABI info - done
+[1.608s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.609s] -- Detecting C compile features
+[1.609s] -- Detecting C compile features - done
+[1.613s] -- Detecting CXX compiler ABI info
+[1.910s] -- Detecting CXX compiler ABI info - done
+[1.925s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.927s] -- Detecting CXX compile features
+[1.927s] -- Detecting CXX compile features - done
+[1.931s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.261s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.457s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[4.389s] -- Configuring done
+[4.400s] -- Generating done
+[4.403s] -- Build files have been written to: /home/jbaghiro/testWS/build/turtlebot3_description
+[4.418s] Invoked command in '/home/jbaghiro/testWS/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jbaghiro/testWS/src/turtlebot3/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/jbaghiro/testWS/install/turtlebot3_description
+[4.422s] Invoking command in '/home/jbaghiro/testWS/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jbaghiro/testWS/build/turtlebot3_description -- -j16 -l16
+[4.488s] Invoked command in '/home/jbaghiro/testWS/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jbaghiro/testWS/build/turtlebot3_description -- -j16 -l16
+[4.491s] Invoking command in '/home/jbaghiro/testWS/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jbaghiro/testWS/build/turtlebot3_description
+[4.504s] -- Install configuration: ""
+[4.504s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes
+[4.508s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors
+[4.508s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[4.510s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[4.511s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[4.539s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[4.541s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[4.542s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes/bases
+[4.543s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[4.557s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[4.604s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[4.628s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels
+[4.629s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[4.631s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[4.634s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/rviz
+[4.634s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[4.634s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/urdf
+[4.635s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[4.635s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[4.635s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[4.636s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[4.638s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[4.639s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[4.639s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[4.640s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[4.640s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[4.640s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[4.641s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[4.641s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[4.641s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[4.641s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[4.642s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[4.642s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[4.643s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[4.643s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[4.644s] -- Installing: /home/jbaghiro/testWS/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[4.648s] Invoked command in '/home/jbaghiro/testWS/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jbaghiro/testWS/build/turtlebot3_description

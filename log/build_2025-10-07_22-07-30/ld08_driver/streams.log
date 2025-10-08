@@ -1,0 +1,70 @@
+[0.756s] Invoking command in '/home/jbaghiro/testWS/build/ld08_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jbaghiro/testWS/src/utils/ld08_driver -DCMAKE_INSTALL_PREFIX=/home/jbaghiro/testWS/install/ld08_driver
+[0.965s] -- The C compiler identification is GNU 11.4.0
+[1.592s] -- The CXX compiler identification is GNU 11.4.0
+[2.442s] -- Detecting C compiler ABI info
+[2.792s] -- Detecting C compiler ABI info - done
+[2.821s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.821s] -- Detecting C compile features
+[2.821s] -- Detecting C compile features - done
+[2.821s] -- Detecting CXX compiler ABI info
+[3.495s] -- Detecting CXX compiler ABI info - done
+[3.509s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.509s] -- Detecting CXX compile features
+[3.509s] -- Detecting CXX compile features - done
+[3.515s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.785s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.931s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[4.187s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.194s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.203s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.217s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.234s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.286s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.289s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.962s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.614s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.451s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.464s] -- Looking for pthread.h
+[12.658s] -- Looking for pthread.h - found
+[12.659s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.847s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.848s] -- Found Threads: TRUE  
+[12.909s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[12.951s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system 
+[13.048s] -- Configuring done
+[13.076s] -- Generating done
+[13.084s] -- Build files have been written to: /home/jbaghiro/testWS/build/ld08_driver
+[13.109s] Invoked command in '/home/jbaghiro/testWS/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jbaghiro/testWS/src/utils/ld08_driver -DCMAKE_INSTALL_PREFIX=/home/jbaghiro/testWS/install/ld08_driver
+[13.111s] Invoking command in '/home/jbaghiro/testWS/build/ld08_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jbaghiro/testWS/build/ld08_driver -- -j16 -l16
+[13.219s] [ 16%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o[0m
+[13.219s] [ 33%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o[0m
+[13.222s] [ 66%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/transform.cpp.o[0m
+[13.223s] [ 66%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o[0m
+[13.228s] [ 83%] [32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/slbf.cpp.o[0m
+[21.081s] [100%] [32m[1mLinking CXX executable ld08_driver[0m
+[21.471s] [100%] Built target ld08_driver
+[21.489s] Invoked command in '/home/jbaghiro/testWS/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jbaghiro/testWS/build/ld08_driver -- -j16 -l16
+[21.493s] Invoking command in '/home/jbaghiro/testWS/build/ld08_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jbaghiro/testWS/build/ld08_driver
+[21.502s] -- Install configuration: ""
+[21.503s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/launch
+[21.504s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/launch/ld08.launch.py
+[21.506s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/lib/ld08_driver/ld08_driver
+[21.508s] -- Set runtime path of "/home/jbaghiro/testWS/install/ld08_driver/lib/ld08_driver/ld08_driver" to ""
+[21.510s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ament_index/resource_index/package_run_dependencies/ld08_driver
+[21.511s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ament_index/resource_index/parent_prefix_path/ld08_driver
+[21.512s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.sh
+[21.512s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.dsv
+[21.512s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/environment/path.sh
+[21.512s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/environment/path.dsv
+[21.513s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/local_setup.bash
+[21.513s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/local_setup.sh
+[21.513s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/local_setup.zsh
+[21.513s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/local_setup.dsv
+[21.514s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/package.dsv
+[21.514s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ament_index/resource_index/packages/ld08_driver
+[21.515s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[21.515s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[21.516s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig.cmake
+[21.516s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig-version.cmake
+[21.516s] -- Installing: /home/jbaghiro/testWS/install/ld08_driver/share/ld08_driver/package.xml
+[21.521s] Invoked command in '/home/jbaghiro/testWS/build/ld08_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jbaghiro/testWS/build/ld08_driver

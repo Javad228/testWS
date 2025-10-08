@@ -1,3 +1,0 @@
-[console_scripts]
-braitenberg_node = braitenberg_tb3.braitenberg_node:main
-

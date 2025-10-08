@@ -1,0 +1,82 @@
+[1.676s] Invoking command in '/home/jbaghiro/testWS/src/turtlebot3/turtlebot3/turtlebot3_example': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jbaghiro/testWS/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages:/home/jbaghiro/testWS/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_example build --build-base /home/jbaghiro/testWS/build/turtlebot3_example/build install --record /home/jbaghiro/testWS/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[2.155s] running egg_info
+[2.156s] creating ../../../../build/turtlebot3_example/turtlebot3_example.egg-info
+[2.158s] writing ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[2.158s] writing dependency_links to ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[2.158s] writing entry points to ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[2.159s] writing requirements to ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[2.159s] writing top-level names to ../../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[2.159s] writing manifest file '../../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[2.164s] reading manifest file '../../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[2.165s] writing manifest file '../../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[2.166s] running build
+[2.166s] running build_py
+[2.166s] creating /home/jbaghiro/testWS/build/turtlebot3_example/build
+[2.167s] creating /home/jbaghiro/testWS/build/turtlebot3_example/build/lib
+[2.168s] creating /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example
+[2.169s] copying turtlebot3_example/__init__.py -> /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example
+[2.170s] creating /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[2.171s] copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[2.171s] copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[2.171s] creating /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[2.173s] copying turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[2.173s] copying turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move
+[2.173s] creating /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[2.175s] copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[2.176s] copying turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[2.176s] copying turtlebot3_example/turtlebot3_patrol/__init__.py -> /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol
+[2.176s] creating /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[2.178s] copying turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[2.178s] copying turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker
+[2.179s] creating /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[2.180s] copying turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[2.180s] copying turtlebot3_example/turtlebot3_relative_move/__init__.py -> /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move
+[2.181s] running install
+[2.182s] running install_lib
+[2.183s] creating /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example
+[2.185s] creating /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[2.186s] copying /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[2.187s] copying /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[2.187s] creating /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[2.188s] copying /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/__init__.py -> /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[2.189s] copying /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py -> /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move
+[2.189s] creating /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+[2.190s] copying /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py -> /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+[2.190s] copying /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py -> /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+[2.190s] copying /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol/__init__.py -> /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol
+[2.191s] creating /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[2.192s] copying /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py -> /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[2.192s] copying /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_interactive_marker/__init__.py -> /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker
+[2.192s] copying /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example
+[2.193s] creating /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move
+[2.194s] copying /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py -> /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move
+[2.194s] copying /home/jbaghiro/testWS/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_relative_move/__init__.py -> /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move
+[2.196s] byte-compiling /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-310.pyc
+[2.199s] byte-compiling /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-310.pyc
+[2.200s] byte-compiling /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move/__init__.py to __init__.cpython-310.pyc
+[2.201s] byte-compiling /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_absolute_move/turtlebot3_absolute_move.py to turtlebot3_absolute_move.cpython-310.pyc
+[2.204s] byte-compiling /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-310.pyc
+[2.208s] byte-compiling /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-310.pyc
+[2.209s] byte-compiling /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_patrol/__init__.py to __init__.cpython-310.pyc
+[2.210s] byte-compiling /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker/turtlebot3_interactive_marker.py to turtlebot3_interactive_marker.cpython-310.pyc
+[2.214s] byte-compiling /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_interactive_marker/__init__.py to __init__.cpython-310.pyc
+[2.215s] byte-compiling /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/__init__.py to __init__.cpython-310.pyc
+[2.217s] byte-compiling /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move/turtlebot3_relative_move.py to turtlebot3_relative_move.cpython-310.pyc
+[2.221s] byte-compiling /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example/turtlebot3_relative_move/__init__.py to __init__.cpython-310.pyc
+[2.221s] running install_data
+[2.222s] creating /home/jbaghiro/testWS/install/turtlebot3_example/share/ament_index
+[2.223s] creating /home/jbaghiro/testWS/install/turtlebot3_example/share/ament_index/resource_index
+[2.223s] creating /home/jbaghiro/testWS/install/turtlebot3_example/share/ament_index/resource_index/packages
+[2.224s] copying resource/turtlebot3_example -> /home/jbaghiro/testWS/install/turtlebot3_example/share/ament_index/resource_index/packages
+[2.224s] copying package.xml -> /home/jbaghiro/testWS/install/turtlebot3_example/share/turtlebot3_example
+[2.225s] running install_egg_info
+[2.228s] Copying ../../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3_example-2.3.3-py3.10.egg-info
+[2.231s] running install_scripts
+[2.273s] Installing turtlebot3_absolute_move script to /home/jbaghiro/testWS/install/turtlebot3_example/lib/turtlebot3_example
+[2.275s] Installing turtlebot3_interactive_marker script to /home/jbaghiro/testWS/install/turtlebot3_example/lib/turtlebot3_example
+[2.275s] Installing turtlebot3_obstacle_detection script to /home/jbaghiro/testWS/install/turtlebot3_example/lib/turtlebot3_example
+[2.276s] Installing turtlebot3_patrol_client script to /home/jbaghiro/testWS/install/turtlebot3_example/lib/turtlebot3_example
+[2.276s] Installing turtlebot3_patrol_server script to /home/jbaghiro/testWS/install/turtlebot3_example/lib/turtlebot3_example
+[2.276s] Installing turtlebot3_relative_move script to /home/jbaghiro/testWS/install/turtlebot3_example/lib/turtlebot3_example
+[2.277s] writing list of installed files to '/home/jbaghiro/testWS/build/turtlebot3_example/install.log'
+[2.337s] Invoked command in '/home/jbaghiro/testWS/src/turtlebot3/turtlebot3/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/jbaghiro/testWS/install/turtlebot3_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/jbaghiro/testWS/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jbaghiro/testWS/install/turtlebot3_example/lib/python3.10/site-packages:/home/jbaghiro/testWS/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/turtlebot3_example build --build-base /home/jbaghiro/testWS/build/turtlebot3_example/build install --record /home/jbaghiro/testWS/build/turtlebot3_example/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/braitenberg/braitenberg.egg-info
+writing ../../build/braitenberg/braitenberg.egg-info/PKG-INFO
+writing dependency_links to ../../build/braitenberg/braitenberg.egg-info/dependency_links.txt
+writing entry points to ../../build/braitenberg/braitenberg.egg-info/entry_points.txt
+writing requirements to ../../build/braitenberg/braitenberg.egg-info/requires.txt
+writing top-level names to ../../build/braitenberg/braitenberg.egg-info/top_level.txt
+writing manifest file '../../build/braitenberg/braitenberg.egg-info/SOURCES.txt'
+reading manifest file '../../build/braitenberg/braitenberg.egg-info/SOURCES.txt'
+writing manifest file '../../build/braitenberg/braitenberg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jbaghiro/testWS/build/braitenberg/build
+creating /home/jbaghiro/testWS/build/braitenberg/build/lib
+creating /home/jbaghiro/testWS/build/braitenberg/build/lib/braitenberg
+copying braitenberg/braitenberg_node.py -> /home/jbaghiro/testWS/build/braitenberg/build/lib/braitenberg
+copying braitenberg/__init__.py -> /home/jbaghiro/testWS/build/braitenberg/build/lib/braitenberg
+running install
+running install_lib
+creating /home/jbaghiro/testWS/install/braitenberg/lib/python3.10/site-packages/braitenberg
+copying /home/jbaghiro/testWS/build/braitenberg/build/lib/braitenberg/braitenberg_node.py -> /home/jbaghiro/testWS/install/braitenberg/lib/python3.10/site-packages/braitenberg
+copying /home/jbaghiro/testWS/build/braitenberg/build/lib/braitenberg/__init__.py -> /home/jbaghiro/testWS/install/braitenberg/lib/python3.10/site-packages/braitenberg
+byte-compiling /home/jbaghiro/testWS/install/braitenberg/lib/python3.10/site-packages/braitenberg/braitenberg_node.py to braitenberg_node.cpython-310.pyc
+byte-compiling /home/jbaghiro/testWS/install/braitenberg/lib/python3.10/site-packages/braitenberg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jbaghiro/testWS/install/braitenberg/share/ament_index
+creating /home/jbaghiro/testWS/install/braitenberg/share/ament_index/resource_index
+creating /home/jbaghiro/testWS/install/braitenberg/share/ament_index/resource_index/packages
+copying resource/braitenberg -> /home/jbaghiro/testWS/install/braitenberg/share/ament_index/resource_index/packages
+copying package.xml -> /home/jbaghiro/testWS/install/braitenberg/share/braitenberg
+creating /home/jbaghiro/testWS/install/braitenberg/share/braitenberg/launch
+copying launch/braitenberg.launch.py -> /home/jbaghiro/testWS/install/braitenberg/share/braitenberg/launch
+running install_egg_info
+Copying ../../build/braitenberg/braitenberg.egg-info to /home/jbaghiro/testWS/install/braitenberg/lib/python3.10/site-packages/braitenberg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing braitenberg_node script to /home/jbaghiro/testWS/install/braitenberg/lib/braitenberg
+writing list of installed files to '/home/jbaghiro/testWS/build/braitenberg/install.log'
